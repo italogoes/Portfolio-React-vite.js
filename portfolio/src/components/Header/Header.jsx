@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from '../../assets/styles/Header/Header.sass'
 import { BsSun } from "react-icons/bs";
 import { BsMoonStarsFill } from "react-icons/bs";
+import Intro from "../Intro/Intro"
 
 const Header = () => {
     const [darkMode, setDarkMode] = useState(false)
@@ -25,11 +26,13 @@ const Header = () => {
                                 <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Projetos</a></li>
                                 <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Habilidades</a></li>
                                 <button className='btn-mudacor' onClick={handleToggleDarkMode}>
-                                    {darkMode ? <BsSun style={{color: '#fff', fontSize: '25px'}}/> : <BsMoonStarsFill/>}
+                                    {darkMode ? <BsSun style={{color: '#fff', fontSize: '25px'}}/> : <BsMoonStarsFill style={{fontSize: '25px'}}/>}
                                 </button>
                             </ul>
                         </div>
                     </div>
+
+                    <Intro/>
                 </div>
             </div>
         </div>
