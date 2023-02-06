@@ -7,9 +7,11 @@ import Intro from "../Intro/Intro"
 const Header = () => {
     const [darkMode, setDarkMode] = useState(false)
 
-    const handleToggleDarkMode = () => {
+    const handleToggleDarkMode  = () => {
         setDarkMode(!darkMode)
     }
+
+    
     return (
         <div>
             <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>

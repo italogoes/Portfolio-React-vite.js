@@ -4,15 +4,36 @@
     display: flex
     align-items: center
     justify-content: space-between
+    padding: 100px 0
 
 .apresentacao
-    color: #0061F2
+    .message-animate
+        color: variables.$cor-azul
 
     h1
         font-family: variables.$font-principal
+        font-size: 60px
 
 .apresentacao-img
     img
-        width: 580px
+        width: 480px
 
+.btns-curriculo-contato
+    display: flex
+    width: 100%
+    justify-content: space-between
+    margin-top: 20px
+
+    .btn-curriculo
+        background: variables.$cor-azul
+        color: #fff
+        padding: 15px 30px
+
+    .btn-contato
+        padding: 15px
+        border: 1px solid
+        border-image-source: linear-gradient(to right, variables.$cor-azul, #bc4e9c)
+        border-image-slice: 1
+        color: variables.$cor-azul
+        font-size: 17px
 
