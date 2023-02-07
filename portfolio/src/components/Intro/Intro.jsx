@@ -11,7 +11,7 @@ const Intro = (props) => {
             <div className='apresentacao'>
                 <h1 className='message'>Olá, eu sou o</h1>
                 <h1 className='message-animate'>Ítalo Góes</h1>
-                <p>Desenvolvedor Full Stack</p>
+                <p className='oq-sou'>Desenvolvedor Full Stack</p>
                 <div className='btns-curriculo-contato'>
                     <a className='btn-curriculo' href="">Download CV</a>
                     <a className='btn-contato' href="">Entrar em contato</a>

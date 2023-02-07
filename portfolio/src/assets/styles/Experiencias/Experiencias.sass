@@ -1,0 +1,59 @@
+@use '../variables.sass'
+
+.efeito-blur
+    background-filter: brightness(150%) contrast(200%) blur(5px)
+    background-color: #111111 !important
+    color: #fff
+    border-left: 3px solid variables.$cor-azul !important
+
+.texto-experiencia
+    h2
+        background-image: linear-gradient(to right, variables.$cor-azul, #bc4e9c)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        font-size: 35px
+        padding: 250px 0 90px 0
+        text-align: center
+        
+
+.prt-experiencias
+    display: flex
+    width: 100%
+    gap: 140px
+
+    .btns-experiencias
+        border-left: 1px solid #151515
+        height: 156px   
+        p
+            width: 285px
+            border: 0
+            padding: 15px 30px
+            background: transparent
+            border-radius: 2px
+            cursor: pointer
+            font-size: 17px
+            margin: 2px 0
+            transition: 0.5s
+            &:hover
+                background: #343A40
+                color: #fff
+                transition: 0.5s
+
+.grid-experiencias
+    h3
+        font-size: 35px
+
+        span
+            font-size: 15px
+            padding-left: 150px
+
+    .nome-empresa
+        color: variables.$cor-azul
+        padding: 25px 0 45px 0
+        font-size: 15px
+
+    p
+        font-size: 17px
+        width: 700px
+    
+  

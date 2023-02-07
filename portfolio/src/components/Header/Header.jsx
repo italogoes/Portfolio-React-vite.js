@@ -1,8 +1,18 @@
 import React, { useState } from 'react'
-import style from '../../assets/styles/Header/Header.sass'
+
+//Estilos
+import '../../assets/styles/Header/Header.sass'
+
+//Icons
 import { BsSun } from "react-icons/bs";
 import { BsMoonStarsFill } from "react-icons/bs";
+
+//Paginas
 import Intro from "../Intro/Intro"
+import Sobre from '../Sobre/Sobre';
+import Experiencias from '../Experiencias/Experiencias';
+import Habilidades from '../Habilidades/Habilidades';
+import Projetos from '../Projetos/Projetos';
 
 const Header = () => {
     const [darkMode, setDarkMode] = useState(false)
@@ -35,6 +45,10 @@ const Header = () => {
                     </div>
 
                     <Intro/>
+                    <Sobre/>
+                    <Experiencias/>
+                    <Projetos/>
+                    <Habilidades/>
                 </div>
             </div>
         </div>
