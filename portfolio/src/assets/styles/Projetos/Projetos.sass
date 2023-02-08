@@ -6,5 +6,47 @@
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
         font-size: 35px
-        padding: 250px 0 50px 0
+        padding: 250px 0 120px 0
         text-align: center
+
+.grid-projetos
+    width: 100%
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+    .single-projeto
+        width: 45%
+        margin-bottom: 60px
+
+        img
+            width: 100%
+            border-left: 4px solid variables.$cor-azul-secundaria
+            height: 250px
+        
+        h3
+            padding: 35px 0
+
+        p
+            padding: 0 150px 0 0
+            font-size: 16px
+
+        .tech
+            color: variables.$cor-azul-secundaria
+            padding: 25px 0
+            font-size: 16px
+        
+        a
+            background: #111
+            padding: 10px 25px
+            color: #fff
+            margin-top: 5px
+            display: inline-block
+            border: 1px solid
+            border-image: linear-gradient(to right, variables.$cor-azul-secundaria, #bc4e9c) 1
+            display: flex
+            align-items: center
+            width: 36%
+            
+            svg
+                margin-right: 10px

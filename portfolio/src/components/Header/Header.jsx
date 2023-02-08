@@ -19,11 +19,15 @@ const Header = () => {
 
     const handleToggleDarkMode  = () => {
         setDarkMode(!darkMode)
+        localStorage.setItem('mode',darkMode)
     }
 
+    function pegaItem(){
+        localStorage.getItem(mode)                  
+    }
     
     return (
-        <div>
+        <div onLoad={pegaItem}>
             <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
                 <div className='container'>
                     <div className='topo'>

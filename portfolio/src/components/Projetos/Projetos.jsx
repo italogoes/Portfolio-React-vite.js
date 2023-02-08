@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../assets/styles/Projetos/Projetos.sass'
+import pizza from '../../assets/img/pizza.png'
+import {BsLink45Deg} from 'react-icons/bs'
 
 const Projetos = () => {
   return (
@@ -10,8 +12,37 @@ const Projetos = () => {
 
         <div className='grid-projetos'>
             <div className='single-projeto'>
-                <h5>Projeto 1</h5>
+                <img src={pizza} alt="" />
+                <h3>Delivery de Pizza</h3>
+                <p>Nesse projeto desenvolvi um sistema que simula o pedido de uma pizza, podendo selecionar a quantidade, sabor, tamanho e preço</p>
+                <p className='tech'>Tecnologias: Html, Css, Javascript</p>
+                <a href="https://pizzaedelivery.netlify.app/" target="_blank"><BsLink45Deg/>Visualizar Projeto</a>
             </div>
+
+            <div className='single-projeto'>
+            <img src="" alt="" />
+                <h3>Delivery de Pizza</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem magnam odio expedita, quam eligendi blanditiis quas ut iure! Eos, mollitia. Aliquid, dicta quis eveniet recusandae voluptatum corrupti nulla atque.</p>
+                <p className='tech'>Tecnologias: Html, Css</p>
+                <a href=""><BsLink45Deg/>Visualizar Projeto</a>
+            </div>
+
+            <div className='single-projeto'>
+            <img src="" alt="" />
+                <h3>Delivery de Pizza</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem magnam odio expedita, quam eligendi blanditiis quas ut iure! Eos, mollitia. Aliquid, dicta quis eveniet recusandae voluptatum corrupti nulla atque.</p>
+                <p className='tech'>Tecnologias: Html, Css</p>
+                <a href=""><BsLink45Deg/>Visualizar Projeto</a>
+            </div>
+
+            <div className='single-projeto'>
+            <img src="" alt="" />
+                <h3>Delivery de Pizza</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem magnam odio expedita, quam eligendi blanditiis quas ut iure! Eos, mollitia. Aliquid, dicta quis eveniet recusandae voluptatum corrupti nulla atque.</p>
+                <p className='tech'>Tecnologias: Html, Css</p>
+                <a href=""><BsLink45Deg/>Visualizar Projeto</a>
+            </div>
+            
         </div>
     </>
   )

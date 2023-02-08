@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../../assets/styles/Experiencias/Experiencias.sass'
 
+
 function func1() {
     var exp1 = document.getElementById('sudoeste')
     var exp2 = document.getElementById('agente')
@@ -74,9 +75,9 @@ const Experiencias = () => {
 
             <div className='prt-experiencias'>
                 <div className='btns-experiencias'>
-                    <p id='btn-push' onClick={() => handleClick(func3)}>Push E-commerce</p>
+                    <p id='btn-push' className='efeito-blur' onClick={() => handleClick(func3)}>Push E-commerce</p>
                     <p id='btn-agente' onClick={() => handleClick(func2)}>Agente Marketing Digital</p>
-                    <p id='btn-sudoeste' className='efeito-blur' onClick={() => handleClick(func1)}>Freire Informática</p>
+                    <p id='btn-sudoeste' onClick={() => handleClick(func1)}>Freire Informática</p>
                     
                 </div>
 
@@ -91,7 +92,7 @@ const Experiencias = () => {
                         <p className='nome-empresa'>Agente Marketing Digital</p>
                         <p>Desenvolvimento e implementação de novas funcionalidades em sites e e-commerces, alem de prestar suporte aos pedidos dos clientes recebidos diariamente</p>
                     </div>
-                    <div id='push' style={{ display: 'none' }}>
+                    <div id='push' style={{ display: 'block' }}>
                         <h3>Desenvolvedor Front-end <span>Nov 2022 - Atualmente</span></h3>
                         <p className='nome-empresa'>Push E-commerce</p>
                         <p>Desenvolvimento de sites, manutenção em codigo existente, desenvolvimento de e-commerces, melhorias nas páginas existentes e versionamento de codigo diário com o github</p>
