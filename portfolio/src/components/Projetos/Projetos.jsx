@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../assets/styles/Projetos/Projetos.sass'
 import pizza from '../../assets/img/pizza.png'
+import stride from '../../assets/img/techstride.png'
 import {BsLink45Deg} from 'react-icons/bs'
 
 const Projetos = () => {
@@ -20,10 +21,10 @@ const Projetos = () => {
             </div>
 
             <div className='single-projeto'>
-            <img src="" alt="" />
-                <h3>Delivery de Pizza</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem magnam odio expedita, quam eligendi blanditiis quas ut iure! Eos, mollitia. Aliquid, dicta quis eveniet recusandae voluptatum corrupti nulla atque.</p>
-                <p className='tech'>Tecnologias: Html, Css</p>
+            <img src={stride} alt="" />
+                <h3>Agência Tech Stride</h3>
+                <p>Desenvolvimento do site da empresa Tech Stride para ampliar a sua presença online</p>
+                <p className='tech'>Tecnologias: Html, Css, JavaScript, React, Sass</p>
                 <a href=""><BsLink45Deg/>Visualizar Projeto</a>
             </div>
 

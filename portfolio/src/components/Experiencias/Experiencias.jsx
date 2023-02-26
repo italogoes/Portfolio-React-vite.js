@@ -78,7 +78,6 @@ const Experiencias = () => {
                     <p id='btn-push' className='efeito-blur' onClick={() => handleClick(func3)}>Push E-commerce</p>
                     <p id='btn-agente' onClick={() => handleClick(func2)}>Agente Marketing Digital</p>
                     <p id='btn-sudoeste' onClick={() => handleClick(func1)}>Freire Informática</p>
-                    
                 </div>
 
                 <div className='grid-experiencias'>
