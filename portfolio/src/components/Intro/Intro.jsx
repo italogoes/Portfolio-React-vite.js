@@ -13,7 +13,7 @@ const Intro = (props) => {
                 <h1 className='message-animate'>Ítalo Góes</h1>
                 <p className='oq-sou'>Desenvolvedor Full Stack</p>
                 <div className='btns-curriculo-contato'>
-                    <a className='btn-curriculo' href="">Download CVvvvvvvv</a>
+                    <a className='btn-curriculo' href="">Download CV</a>
                     <a className='btn-contato' href="">Entrar em contato</a>
                 </div>
             </div>
