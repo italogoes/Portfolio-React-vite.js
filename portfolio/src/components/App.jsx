@@ -1,5 +1,5 @@
 import Header from "./Header/Header"
-import style from '../assets/styles/app.sass'
+import '../assets/styles/app.sass'
 
 
 function App() {
