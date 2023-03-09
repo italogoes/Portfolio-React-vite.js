@@ -13,6 +13,7 @@ import Sobre from '../Sobre/Sobre';
 import Experiencias from '../Experiencias/Experiencias';
 import Habilidades from '../Habilidades/Habilidades';
 import Projetos from '../Projetos/Projetos';
+import Footer from '../Footer/Footer';
 
 const Header = () => {
     const [darkMode, setDarkMode] = useState(false)
@@ -54,6 +55,7 @@ const Header = () => {
                     <Projetos/>
                     <Habilidades/>
                 </div>
+                <Footer/>
             </div>
         </div>
     )
