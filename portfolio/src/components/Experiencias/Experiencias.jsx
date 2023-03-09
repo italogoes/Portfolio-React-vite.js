@@ -92,7 +92,7 @@ const Experiencias = () => {
                         <p>Desenvolvimento e implementação de novas funcionalidades em sites e e-commerces, alem de prestar suporte aos pedidos dos clientes recebidos diariamente</p>
                     </div>
                     <div id='push' style={{ display: 'block' }}>
-                        <h3>Desenvolvedor Front-end <span>Nov 2022 - Atualmente</span></h3>
+                        <h3>Desenvolvedor Front-end <span>Nov 2022 - 2022</span></h3>
                         <p className='nome-empresa'>Push E-commerce</p>
                         <p>Desenvolvimento de sites, manutenção em codigo existente, desenvolvimento de e-commerces, melhorias nas páginas existentes e versionamento de codigo diário com o github</p>
                     </div>
