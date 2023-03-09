@@ -6,7 +6,7 @@ import '../../assets/styles/Habilidades/Habilidades.sass'
 const Habilidades = () => {
   return (
     <>
-        <div className='texto-habilidades'>
+        <div id='habilidades' className='texto-habilidades'>
             <h2>Habilidades</h2>
 
             <Slider/>

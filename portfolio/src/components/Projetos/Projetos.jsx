@@ -9,7 +9,7 @@ import {BsLink45Deg} from 'react-icons/bs'
 const Projetos = () => {
   return (
     <>
-        <div className='texto-projetos'>
+        <div id='projetos' className='texto-projetos'>
             <h2>Projetos</h2>
         </div>
 

@@ -38,10 +38,10 @@ const Header = () => {
 
                         <div className='menu-desktop'>
                             <ul className='menu'>
-                                <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Sobre Mim</a></li>
-                                <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Experiências</a></li>
-                                <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Projetos</a></li>
-                                <li><a href="" className={`App ${darkMode ? 'dark-mode' : ''}`}>Habilidades</a></li>
+                                <li><a href="#sobre" className={`App ${darkMode ? 'dark-mode' : ''}`}>Sobre Mim</a></li>
+                                <li><a href="#experiencias" className={`App ${darkMode ? 'dark-mode' : ''}`}>Experiências</a></li>
+                                <li><a href="#projetos" className={`App ${darkMode ? 'dark-mode' : ''}`}>Projetos</a></li>
+                                <li><a href="#habilidades" className={`App ${darkMode ? 'dark-mode' : ''}`}>Habilidades</a></li>
                                 <button className='btn-mudacor' onClick={handleToggleDarkMode}>
                                     {darkMode ? <BsSun style={{color: '#fff', fontSize: '25px'}}/> : <BsMoonStarsFill style={{fontSize: '25px'}}/>}
                                 </button>

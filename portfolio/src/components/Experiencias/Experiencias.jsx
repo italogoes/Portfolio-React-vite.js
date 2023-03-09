@@ -69,7 +69,7 @@ const Experiencias = () => {
 
     return (
         <>
-            <div className='texto-experiencia'>
+            <div id='experiencias' className='texto-experiencia'>
                 <h2>Experiências</h2>
             </div>
 

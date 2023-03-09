@@ -4,7 +4,7 @@ import '../../assets/styles/Intro/digitando.css'
 const Sobre = () => {
   return (
     <>
-        <div className='sobre'>
+        <div id='sobre' className='sobre'>
             <h2>Sobre Mim</h2>
             <div className='sobre-texto'>
                 <p>Meu nome é Ítalo Góes, tenho 23 anos, moro no Brasil, especificamente em Camaçari-BA <br /> e sou desenvolvedor de software a mais de 3 anos. <br />
